@@ -11,6 +11,7 @@ export const HeaderWrapper = styled.div`
     /*均匀排布每一个子元素、首元素位于第一个，子元素位于末尾 */
     justify-content: space-between;
   }
+  
 `;
 
 export const HeaderLeft = styled.div`

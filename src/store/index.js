@@ -8,7 +8,7 @@ import reducer from './reducer.js';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 const storeEnhancer = applyMiddleware(thunk);
-
+/* 构建store */
 const store = createStore(reducer, composeEnhancers(storeEnhancer));
 
 export default store;
